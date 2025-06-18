@@ -1,0 +1,30 @@
+/* Basic Selectors */
+/* element selector */
+
+h1{
+    color: burlywood;
+    font-size: 100px;
+
+}
+
+/* ID selector */
+#yadav{
+    font-size: 200px;
+    color: darkseagreen;
+}
+
+/* Class selector */
+.himanshu{
+    background-color: darkgoldenrod;
+}
+
+
+/* Attribute selector */
+input[type="password"]{
+    background-color: aqua;
+}
+
+/* Universal selector */
+*{
+    border: 2px solid black
+}

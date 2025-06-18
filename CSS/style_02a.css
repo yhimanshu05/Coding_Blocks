@@ -1,0 +1,92 @@
+/* combinators */
+/* descendant selector */
+
+/* h1 span{
+    color: green;
+} */
+/* section div h1 span{} */
+/* section h1 span{} */
+
+
+/* child selector */
+/* section > div > h1 > span{} */
+/* div > h1 > span{} */
+/* h1 > span{
+    font-size: 100px;
+    background-color: crimson;
+} */
+
+
+/* adjacent sibling */
+/* article + div{
+    color: darkmagenta;
+    border: 2pox solid black;
+} */
+
+
+/* general sibling */
+/* article ~ div{
+    background-color: cyan;
+} */
+
+
+/* --------------------------------------------- */
+/* pseudo classes */
+/* :hover */
+/* div{
+    background-color: goldenrod;
+} */
+
+
+/* :focus */
+/* input{
+    background-color: green;
+}
+
+input:focus{
+    background-color: coral;
+} */
+
+
+/* :active */-
+/* a{
+    font-size: 50px;
+}
+a:active{
+    font-size: 200px;
+    border: 5px dotted purple;
+} */
+
+
+/* :visited */
+/* a:visited{
+    color: lightblue;
+} */
+
+
+/* -------------------------------------------- */
+/* pseudo elements */
+
+/* ::first-letter */
+/* p::first-letter{
+    font-size: 100px;
+    color: blueviolet;
+} */
+
+
+/* ::first-line */
+/* p::first-line{
+    font-family: cursive;
+} */
+
+
+/* before */
+p::before{
+    content: "Hi I am Himanshu Yadav.";
+}
+
+
+/* after */
+p::after{
+    content: "Bye-Bye!";
+}

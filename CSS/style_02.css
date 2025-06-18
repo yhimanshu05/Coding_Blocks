@@ -1,0 +1,31 @@
+/* Basic Selectors */
+/*Element selector */
+h1{
+    color: red;
+    font-size: 100px;
+    background-color: bisque;
+}
+
+/* Id selector (in this we use # sign to denote the id.) */
+#yadav{
+    font-size: 50px;
+    color: darkseagreen;
+}
+
+/* Class selector ( in this we use the . sign to denote the class) */
+.himanshu{
+    background-color: crimson;
+}
+
+/* Attribute Selector */
+input[type = "password"]{
+    background-color: aqua;
+}
+a[href="http://codingblocks.com"]{
+    color: goldenrod;
+}
+
+/* Universal selector ( in this we use the * sign to denote the universal selector) */
+*{
+    border: 2px solid black;
+}
