@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border: 5px solid black;
+    width: 400px;
+    margin: 100px auto;
+    padding: 10px;
+}
+
+div>h1 , div>p{
+    text-align: center;
+    color: red;
+}
+
+/* media query for diff widths */
+/* @media screen and (max-width:1200px) {
+    div>h1, div>p{
+        color: green;
+        font-family: cursive;
+    }
+    
+}
+
+@media screen and (max-width:992px) {
+    div>h1, div>p{
+        color: cyan;
+        font-family: monospace;
+    }
+    
+} */
+
+/* --- smaller values at BOTTOM otherwise the bigger ones will override them */
+
+/* @media screen and (min-width:992px) {
+    div>h1, div>p{
+        color: cyan;
+        font-family: monospace;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+    div>h1, div>p{
+        color: green;
+        font-family: cursive;
+    }
+    
+} */
+
+/* --- smaller values at TOP otherwise the bigger ones will override them */
+
+
+
+
+/* media query for diff orientation */
+/* @media screen and (orientation:portrait) {
+    div>h1 , div>p{
+        font-size: 50px;
+        font-family: cursive;
+    }
+} */
+
+@media screen and (orientation:landscape) , (max-width:700px){
+    div>h1 , div>p{
+        background-color: palegreen;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+}
