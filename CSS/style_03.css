@@ -1,0 +1,5 @@
+/* give styling to li under ul */
+
+ul>li{
+    color: goldenrod;
+}
