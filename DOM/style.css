@@ -1,0 +1,10 @@
+.heading-class{
+    color:crimson;
+    background-color: rgb(202, 239, 251);
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+.one{
+    text-decoration:underline;
+}
