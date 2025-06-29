@@ -1,0 +1,10 @@
+# To check the list of databse we use:
+    - show dbs;
+
+# we first create a database in shell using the command:
+    - use nameof_database;
+
+# We create a collection inside the databse using:      
+    - db.createCollection('nameof_collection);
+
+# Then we can start working on this collection        
