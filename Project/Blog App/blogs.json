@@ -1,0 +1,43 @@
+[
+    {
+      "title": "Iron Man",
+      "actor": "Robert Downey Jr.",
+      "description": "A billionaire industrialist and genius inventor becomes the armored superhero Iron Man."
+    },
+    {
+      "title": "Black Widow",
+      "actor": "Scarlett Johansson",
+      "description": "A former KGB assassin confronts her past while fighting a sinister conspiracy."
+    },
+    {
+      "title": "John Wick",
+      "actor": "Keanu Reeves",
+      "description": "An ex-hitman comes out of retirement to exact revenge on the people who wronged him."
+    },
+    {
+      "title": "Harry Potter",
+      "actor": "Emma Watson",
+      "description": "A young wizard attends Hogwarts and battles the dark lord Voldemort."
+    },
+    {
+      "title": "Spider-Man: No Way Home",
+      "actor": "Tom Holland",
+      "description": "Peter Parker seeks help from Doctor Strange to restore his secret identity, unleashing chaos."
+    },
+    {
+      "title": "Wonder Woman",
+      "actor": "Gal Gadot",
+      "description": "Diana, an Amazon warrior, leaves her home to end war and discover her true powers."
+    },
+    {
+      "title": "Euphoria",
+      "actor": "Sydney Sweeney",
+      "description": "Teenagers navigate love, trauma, and identity in a visually stunning, raw high school drama."
+    },
+    {
+      "title": "No Time to Die",
+      "actor": "Ana de Armas",
+      "description": "Bond comes out of retirement for one last mission, joined by a deadly CIA agent."
+    }
+  ]
+  

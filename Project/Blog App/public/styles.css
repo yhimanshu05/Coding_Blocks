@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #f0f0f0, #ffffff);
+    color: #333;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #71523e;
+    color: rgb(247, 247, 247);
+    padding: 15px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+.nav-links a {
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #e4d6d6;
+}
+
+.header{
+    width: 1200px;
+    margin: 50px auto;
+    text-align: center; 
+}
+
+.heading{
+    margin: 30px;
+    color: #71523e;
+    font-size: 60px;
+}
+
+.blog-form,
+.actor-form{
+    padding: 5px;
+    border: 2px solid #4E4E50 ;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.07);
+}
+
+.title-box,
+.actor-box,
+.desc-box,
+.name-box,
+.image-box,
+.age-box{
+    display: flex;
+    margin: 10px;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+.title-text,
+.actor-text,
+.desc-text,
+.name-text,
+.image-text,
+.age-text{
+    color: #4E4E50;
+}
+
+.title,
+.actor,
+.desc,
+.name,
+.image,
+.age{
+    width: 80%;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 5px;
+    color: #717171;
+    border: 2px solid #b9b9bf;
+}
+
+.title:focus,
+.actor:focus,
+.desc:focus,
+.name:focus,
+.image:focus,
+.age:focus {
+    outline: none;
+    border-color: #5a483d;
+}
+
+.btn{
+    margin-top: 10px;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    background-color:#7E685A;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #61493b;
+}
+
+.blog-list{
+    list-style: none;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.actor-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    list-style: none;    
+}
+
+.blog-item,
+.actor-item{
+    font-size: 24px;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.actor-item{
+    width: 19%;
+    text-align: center;
+}
+
+.blog-item:hover,
+.actor-item:hover {
+    transform: translateY(-2px);
+}
+
+.blog-tile,
+.blog-actor,
+.blog-desc,
+.actor-name,
+.actor-image,
+.actor-age{
+    margin-bottom: 10px;
+}
+
+.actor-image-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+}
+
+.blog-title-heading,
+.blog-actor-heading,
+.blog-desc-heading,
+.actor-age-heading{
+    font-weight: bold;
+    color: #444;
+}
+
+.actor-name-text{
+    font-weight: 500;
+}
+
+.blog-title-text,
+.blog-actor-text,
+.blog-desc-text,
+.actor-age-text{
+    display: block;
+    margin-top: 4px;
+    color: #666;
+}
+
+.blog-desc{
+    margin: 15px 0;
+}
+
+.blog-list:last-child{
+    margin-bottom: 80px;
+}
+
+.dlt-btn {
+    margin-top: 15px;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dlt-btn:hover {
+    background-color: #c0392b;
+}
+
+.update-btn {
+    margin-top: 15px;
+    background-color: #7c7c7c;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-btn:hover {
+    background-color: #3e3e3e;
+}
+
+.details-btn{
+    margin-top: 15px;
+    background-color: #2d46e4;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.details-btn:hover{
+    background-color: #162798;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
