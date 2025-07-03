@@ -20,7 +20,7 @@ app.use(session({
     secret: sessionSecret,
     resave: false,
     saveUninitialized: true,
-    store: MongoStore.create({mongoUrl})
+    store: MongoStore.create({mongoUrl:'mongodb+srv://yhimanshu05:Golu_123@project0.zymqq2y.mongodb.net/?retryWrites=true&w=majority&appName=Project0'})
 }));
 
 app.get('/',(req,res)=>{
